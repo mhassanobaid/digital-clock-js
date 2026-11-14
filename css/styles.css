@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #0d1117;
+    color: #ffffff; */
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.primary-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+
+    padding: 34px 92px;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+
+    border: none;
+    border-radius: 8px;
+
+    /* cursor: pointer; */
+
+    transition: all 0.2s ease;
+}
+
+.primary-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.primary-btn:active {
+    transform: translateY(0);
+}
+
+.clock-display:has(#clock) {
+    /* Apply CSS when #clock exists inside */
+    font-weight: 700;
+    font-weight: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
